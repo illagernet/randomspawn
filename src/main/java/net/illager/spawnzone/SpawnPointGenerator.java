@@ -1,4 +1,4 @@
-package net.illager.randomspawn;
+package net.illager.spawnzone;
 
 import java.util.List;
 import java.util.Random;
@@ -13,11 +13,11 @@ import org.bukkit.block.Block;
 /**
  * Spawnpoint generator
  */
-public class SpawnpointGenerator {
+public class SpawnPointGenerator {
 	private Random random = new Random();
-	private RandomSpawnPlugin plugin;
+	private SpawnZonePlugin plugin;
 
-	public SpawnpointGenerator(RandomSpawnPlugin plugin) {
+	public SpawnPointGenerator(SpawnZonePlugin plugin) {
 		this.plugin = plugin;
 	}
 
