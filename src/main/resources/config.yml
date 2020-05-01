@@ -1,0 +1,30 @@
+# Square radius of the spawn zone
+radius: 10000
+
+# Whether spawning should be restricted to safe materials only
+do-safe-spawn: true
+
+# Times to retry safe spawn before spawning unsafely
+safe-tries: 100
+
+# Materials that are safe to spawn on
+safe-materials:
+  - BROWN_TERRACOTTA
+	- COARSE_DIRT
+	- COBBLESTONE
+	- DIRT
+	- GRASS_BLOCK
+	- GRAVEL
+	- ICE
+	- LIGHT_GRAY_TERRACOTTA
+	- ORANGE_TERRACOTTA
+	- PACKED_ICE
+	- PODZOL
+	- RED_SAND
+	- RED_TERRACOTTA
+	- SAND
+	- SNOW
+	- STONE
+	- TERRACOTTA
+	- WHITE_TERRACOTTA
+  - YELLOW_TERRACOTTA
