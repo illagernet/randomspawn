@@ -1,13 +1,14 @@
+# Attempt to spawn on safe materials
+enable-safe-spawn: true
+
+# Number of attempts to make before allowing an unsafe spawn
+safe-spawn-attempts: 100
+
 # Square radius of the spawn zone
-radius: 10000
-
-# Whether spawning should be restricted to safe materials only
-do-safe-spawn: true
-
-# Times to retry safe spawn before spawning unsafely
-safe-tries: 100
+spawn-radius: 10000
 
 # Materials that are safe to spawn on
+# See https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html for a list of materials
 safe-materials:
   - BROWN_TERRACOTTA
   - COARSE_DIRT
